@@ -13,7 +13,18 @@ Page {
             font.pixelSize: 20
             horizontalAlignment: Text.AlignHCenter
         }
+
+        Button {
+            text: "Load questions"
+
+        }
+
+        Button {
+            text: "Cleat stats"
+        }
     }
+
+
 
     Button {
         anchors.left: parent.left

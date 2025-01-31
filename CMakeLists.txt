@@ -6,11 +6,14 @@ project(testingAppApp LANGUAGES CXX)
 
 set(CMAKE_AUTOMOC ON)
 
-find_package(Qt6 6.2 REQUIRED COMPONENTS Core Gui Qml Quick)
+find_package(Qt6 6.2 REQUIRED COMPONENTS Core Gui Qml Quick )
+
 
 if (Qt6_VERSION VERSION_GREATER_EQUAL 6.3)
     qt_standard_project_setup()
 endif()
+
+
 
 qt_add_executable(testingAppApp src/main.cpp
     tablesql.h tablesql.cpp
@@ -35,6 +38,7 @@ target_link_libraries(testingAppApp PRIVATE
     Qt6::Gui
     Qt6::Qml
     Qt6::Quick
+    Qt6::Sql
 )
 
 set(QT_QML_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/qml)

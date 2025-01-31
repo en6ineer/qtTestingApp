@@ -1,5 +1,6 @@
 import QtQuick 6.2
 import QtQuick.Controls 6.0
+import QtQuick.Shapes
 
     Page {
         title: "Welcome"
@@ -15,52 +16,60 @@ import QtQuick.Controls 6.0
                 ColorAnimation {
                     target: backgroundRect
                     property: "color"
-                    duration: 1000
+                    duration: 2000
                     to: "red"
                 }
 
                 ColorAnimation {
                     target: backgroundRect
                     property: "color"
-                    duration: 1000
+                    duration: 2000
                     to: "orange"
                 }
 
                 ColorAnimation {
                     target: backgroundRect
                     property: "color"
-                    duration: 1000
+                    duration: 2000
                     to: "yellow"
                 }
 
                 ColorAnimation {
                     target: backgroundRect
                     property: "color"
-                    duration: 1000
+                    duration: 2000
                     to: "green"
                 }
 
                 ColorAnimation {
                     target: backgroundRect
                     property: "color"
-                    duration: 1000
+                    duration: 2000
                     to: "cyan"
                 }
 
                 ColorAnimation {
                     target: backgroundRect
                     property: "color"
-                    duration: 1000
+                    duration: 2000
                     to: "blue"
                 }
 
                 ColorAnimation {
                     target: backgroundRect
                     property: "color"
-                    duration: 1000
+                    duration: 2000
                     to: "purple"
                 }
             }
+
+            Rectangle{
+
+                anchors.centerIn: parent
+                height: 200
+                width: 200
+                color: "white"
+                radius: 15
 
             Column {
                 anchors.centerIn: parent
@@ -70,7 +79,7 @@ import QtQuick.Controls 6.0
                     text: "Welcome"
                     font.pixelSize: 24
                     horizontalAlignment: Text.AlignHCenter
-                    color: "white"
+                    color: "grey"
                 }
 
                 Button {
@@ -82,6 +91,7 @@ import QtQuick.Controls 6.0
                     text: "Settings"
                     onClicked: stackView.push("qrc:/pages/settingsPage.qml")
                 }
+            }
             }
         }
 
