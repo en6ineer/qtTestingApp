@@ -68,3 +68,21 @@ QString TableSQL::getFirstQuestion() {
     }
     return "Вопросов нет!";
 }
+
+
+void TableSQL::loadQuestions(const QString &filePath) {
+    qDebug() << "Loading questions from: " << filePath;
+
+    QFile file(filePath);
+    if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
+        qDebug() << "Error opening file!";
+        return;
+    }
+
+    while (!file.atEnd()) {
+        QString line = file.readLine().trimmed();
+        qDebug() << "Read line: " << line;
+    }
+
+    file.close();
+}

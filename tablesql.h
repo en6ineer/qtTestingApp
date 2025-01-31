@@ -9,7 +9,7 @@
 #include <QString>
 #include <QStringList>
 #include <QDebug>
-
+#include <QFile>
 
 
 class TableSQL : public QObject {
@@ -20,6 +20,7 @@ public:
 
     Q_INVOKABLE bool createTable();
     Q_INVOKABLE bool insertQuestion(const QString &question, const QStringList &answers, int correctAnswerIndex);
+    Q_INVOKABLE void loadQuestions(const QString &filePath);
     Q_INVOKABLE QString getFirstQuestion(); // Функция для теста
 
 private:
