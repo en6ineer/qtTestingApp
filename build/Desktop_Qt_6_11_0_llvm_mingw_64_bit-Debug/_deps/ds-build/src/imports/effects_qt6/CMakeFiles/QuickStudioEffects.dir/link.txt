@@ -1,0 +1,2 @@
+D:\Qt\Tools\llvm-mingw1706_64\bin\llvm-ar.exe qc libQuickStudioEffects.a CMakeFiles/QuickStudioEffects.dir/QuickStudioEffects_autogen/mocs_compilation.cpp.obj CMakeFiles/QuickStudioEffects.dir/quickstudioeffects_qmltyperegistrations.cpp.obj CMakeFiles/QuickStudioEffects.dir/.qt/rcc/qrc_qmake_QtQuick_Studio_Effects.cpp.obj CMakeFiles/QuickStudioEffects.dir/.qt/rcc/qrc_QuickStudioEffects_raw_qml_0.cpp.obj
+D:\Qt\Tools\llvm-mingw1706_64\bin\llvm-ranlib.exe libQuickStudioEffects.a

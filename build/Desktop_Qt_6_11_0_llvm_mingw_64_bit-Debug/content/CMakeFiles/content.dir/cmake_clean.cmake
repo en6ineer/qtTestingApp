@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "../qml/content/content.qmltypes"
+  ".qt/rcc/qrc_content_raw_qml_0.cpp"
+  ".qt/rcc/qrc_content_raw_res_0.cpp"
+  ".qt/rcc/qrc_qmake_content.cpp"
+  ".rcc/qmlcache/content_App_qml.cpp"
+  ".rcc/qmlcache/content_App_qml.cpp.aotstats"
+  ".rcc/qmlcache/content_Screen01.ui_qml.cpp"
+  ".rcc/qmlcache/content_Screen01.ui_qml.cpp.aotstats"
+  ".rcc/qmlcache/content_qmlcache_loader.cpp"
+  "CMakeFiles/content.dir/.qt/rcc/qrc_content_raw_qml_0.cpp.obj"
+  "CMakeFiles/content.dir/.qt/rcc/qrc_content_raw_qml_0.cpp.obj.d"
+  "CMakeFiles/content.dir/.qt/rcc/qrc_content_raw_res_0.cpp.obj"
+  "CMakeFiles/content.dir/.qt/rcc/qrc_content_raw_res_0.cpp.obj.d"
+  "CMakeFiles/content.dir/.qt/rcc/qrc_qmake_content.cpp.obj"
+  "CMakeFiles/content.dir/.qt/rcc/qrc_qmake_content.cpp.obj.d"
+  "CMakeFiles/content.dir/.rcc/qmlcache/content_App_qml.cpp.obj"
+  "CMakeFiles/content.dir/.rcc/qmlcache/content_App_qml.cpp.obj.d"
+  "CMakeFiles/content.dir/.rcc/qmlcache/content_Screen01.ui_qml.cpp.obj"
+  "CMakeFiles/content.dir/.rcc/qmlcache/content_Screen01.ui_qml.cpp.obj.d"
+  "CMakeFiles/content.dir/.rcc/qmlcache/content_qmlcache_loader.cpp.obj"
+  "CMakeFiles/content.dir/.rcc/qmlcache/content_qmlcache_loader.cpp.obj.d"
+  "CMakeFiles/content.dir/content_autogen/mocs_compilation.cpp.obj"
+  "CMakeFiles/content.dir/content_autogen/mocs_compilation.cpp.obj.d"
+  "CMakeFiles/content.dir/content_qmltyperegistrations.cpp.obj"
+  "CMakeFiles/content.dir/content_qmltyperegistrations.cpp.obj.d"
+  "CMakeFiles/content_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/content_autogen.dir/ParseCache.txt"
+  "content_autogen"
+  "content_qmltyperegistrations.cpp"
+  "libcontent.a"
+  "libcontent.pdb"
+  "meta_types/content_json_file_list.txt"
+  "meta_types/content_json_file_list.txt.timestamp"
+  "meta_types/qt6content_metatypes.json"
+  "meta_types/qt6content_metatypes.json.gen"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/content.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

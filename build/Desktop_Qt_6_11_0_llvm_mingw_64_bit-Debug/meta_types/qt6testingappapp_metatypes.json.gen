@@ -1,0 +1,70 @@
+[
+    {
+        "classes": [
+            {
+                "className": "TableSQL",
+                "lineNumber": 15,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 21,
+                        "name": "createTable",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "question",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "answers",
+                                "type": "QStringList"
+                            },
+                            {
+                                "name": "correctAnswerIndex",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 1,
+                        "lineNumber": 22,
+                        "name": "insertQuestion",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "filePath",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 2,
+                        "lineNumber": 23,
+                        "name": "loadQuestions",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "lineNumber": 24,
+                        "name": "getFirstQuestion",
+                        "returnType": "QString"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "TableSQL",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "tablesql.h",
+        "outputRevision": 69
+    }
+]

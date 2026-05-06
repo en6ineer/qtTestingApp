@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/content/">
+    <file alias="fonts/fonts.txt">D:/Projects/qtTestingApp/content/fonts/fonts.txt</file>
+  </qresource>
+</RCC>
+

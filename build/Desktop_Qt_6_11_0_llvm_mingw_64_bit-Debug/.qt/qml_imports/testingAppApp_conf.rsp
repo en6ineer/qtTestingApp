@@ -1,0 +1,17 @@
+-rootPath
+D:/Projects/qtTestingApp
+-cmake-output
+-output-file
+D:/Projects/qtTestingApp/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/qml_imports/testingAppApp_conf.cmake
+-importPath
+D:/Projects/qtTestingApp/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug
+-importPath
+D:/Projects/qtTestingApp/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/qml/Main
+-importPath
+D:/Projects/qtTestingApp/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/qml
+-importPath
+D:/Qt/6.11.0/llvm-mingw_64/qml
+-qrcFiles
+D:/Projects/qtTestingApp/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/resources.qrc
+D:/Projects/qtTestingApp/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/qmake_Main.qrc
+D:/Projects/qtTestingApp/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/testingAppApp_raw_qml_0.qrc

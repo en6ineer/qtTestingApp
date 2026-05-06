@@ -1,0 +1,3 @@
+D:/Projects/qtTestingApp/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/_deps/ds-subbuild/CMakeFiles/ds-populate.dir
+D:/Projects/qtTestingApp/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/_deps/ds-subbuild/CMakeFiles/edit_cache.dir
+D:/Projects/qtTestingApp/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/_deps/ds-subbuild/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,2 @@
+D:\Qt\Tools\llvm-mingw1706_64\bin\llvm-ar.exe qc ..\..\..\..\..\..\qml\QtQuick\Studio\EventSimulator\libQuickStudioEventSimulatorplugin.a CMakeFiles/QuickStudioEventSimulatorplugin.dir/QuickStudioEventSimulatorplugin_autogen/mocs_compilation.cpp.obj CMakeFiles/QuickStudioEventSimulatorplugin.dir/QuickStudioEventSimulatorplugin_QtQuick_Studio_EventSimulatorPlugin.cpp.obj
+D:\Qt\Tools\llvm-mingw1706_64\bin\llvm-ranlib.exe ..\..\..\..\..\..\qml\QtQuick\Studio\EventSimulator\libQuickStudioEventSimulatorplugin.a

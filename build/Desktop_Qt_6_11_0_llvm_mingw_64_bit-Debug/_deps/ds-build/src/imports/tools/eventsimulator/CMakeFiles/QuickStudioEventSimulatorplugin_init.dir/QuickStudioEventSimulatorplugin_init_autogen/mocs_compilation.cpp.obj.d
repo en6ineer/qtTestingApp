@@ -1,0 +1,2 @@
+_deps/ds-build/src/imports/tools/eventsimulator/CMakeFiles/QuickStudioEventSimulatorplugin_init.dir/QuickStudioEventSimulatorplugin_init_autogen/mocs_compilation.cpp.obj: \
+  D:/Projects/qtTestingApp/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/_deps/ds-build/src/imports/tools/eventsimulator/QuickStudioEventSimulatorplugin_init_autogen/mocs_compilation.cpp

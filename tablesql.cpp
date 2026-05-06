@@ -73,16 +73,28 @@ QString TableSQL::getFirstQuestion() {
 void TableSQL::loadQuestions(const QString &filePath) {
     qDebug() << "Loading questions from: " << filePath;
 
-    QFile file(filePath);
-    if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
-        qDebug() << "Error opening file!";
-        return;
-    }
+    // QUrl fileUrl = QFileDialog::getOpenFileUrl();
 
-    while (!file.atEnd()) {
-        QString line = file.readLine().trimmed();
-        qDebug() << "Read line: " << line;
-    }
 
-    file.close();
+    // QFile file(filePath.mid(8));
+    // if(file.open(QIODevice::ReadOnly))
+    // {
+    //     QString s = file.readAll();
+    //     qDebug() << s;
+    //     file.close();
+    // }
+
+   //  QFile file(filePath);
+
+   //  if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
+   //      qDebug() << "Error opening file!";
+   //      return;
+   //  }
+
+   //  while (!file.atEnd()) {
+   //      QString line = file.readLine().trimmed();
+   //      qDebug() << "Read line: " << line;
+   //  }
+
+   //  file.close();
 }

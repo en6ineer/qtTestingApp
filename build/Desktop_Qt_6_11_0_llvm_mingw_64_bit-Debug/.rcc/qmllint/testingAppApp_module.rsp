@@ -1,0 +1,16 @@
+-I
+D:/Projects/qtTestingApp/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug
+-I
+D:/Projects/qtTestingApp/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/qml/Main
+-I
+D:/Projects/qtTestingApp/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/qml
+-I
+D:/Qt/6.11.0/llvm-mingw_64/qml
+--resource
+D:/Projects/qtTestingApp/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/resources.qrc
+--resource
+D:/Projects/qtTestingApp/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/qmake_Main.qrc
+--resource
+D:/Projects/qtTestingApp/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/testingAppApp_raw_qml_0.qrc
+--module
+Main

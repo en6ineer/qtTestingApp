@@ -1,0 +1,5 @@
+module Main
+typeinfo testingAppApp.qmltypes
+prefer :/qt/qml/Main/
+depends QtQuick
+

@@ -1,0 +1,11 @@
+module testingApp
+linktarget testingAppplugin
+optional plugin testingAppplugin
+classname testingAppPlugin
+typeinfo testingApp.qmltypes
+prefer :/qt/qml/testingApp/
+singleton Constants 1.0 Constants.qml
+DirectoryFontLoader 1.0 DirectoryFontLoader.qml
+EventListModel 1.0 EventListModel.qml
+EventListSimulator 1.0 EventListSimulator.qml
+

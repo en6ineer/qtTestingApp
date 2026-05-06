@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="qtquickcontrols2.conf">D:/Projects/qtTestingApp/qtquickcontrols2.conf</file>
+    <file alias="pages/startPage.qml">D:/Projects/qtTestingApp/pages/startPage.qml</file>
+    <file alias="pages/testPage.qml">D:/Projects/qtTestingApp/pages/testPage.qml</file>
+    <file alias="pages/settingsPage.qml">D:/Projects/qtTestingApp/pages/settingsPage.qml</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,15 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                    ],
+                    "filePath": "D:/Projects/qtTestingApp/imports/testingApp/EventListModel.qml"
+                }
+            ],
+            "moduleId": "testingApp(testingApp)"
+        }
+    ]
+}

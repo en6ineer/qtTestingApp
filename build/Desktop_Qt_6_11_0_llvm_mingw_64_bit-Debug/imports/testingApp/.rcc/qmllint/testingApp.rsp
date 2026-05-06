@@ -1,0 +1,17 @@
+--bare
+-I
+D:/Projects/qtTestingApp/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/qml
+-I
+D:/Projects/qtTestingApp/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/qml/testingApp
+-I
+D:/Projects/qtTestingApp/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/qml
+-I
+D:/Qt/6.11.0/llvm-mingw_64/qml
+--resource
+D:/Projects/qtTestingApp/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/imports/testingApp/.qt/rcc/qmake_testingApp.qrc
+--resource
+D:/Projects/qtTestingApp/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/imports/testingApp/.qt/rcc/testingApp_raw_qml_0.qrc
+D:/Projects/qtTestingApp/imports/testingApp/Constants.qml
+D:/Projects/qtTestingApp/imports/testingApp/DirectoryFontLoader.qml
+D:/Projects/qtTestingApp/imports/testingApp/EventListModel.qml
+D:/Projects/qtTestingApp/imports/testingApp/EventListSimulator.qml

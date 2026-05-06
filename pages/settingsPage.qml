@@ -40,7 +40,7 @@ Page {
         nameFilters: ["Text files (*.txt)"]
         onAccepted: {
             console.log("Selected file: " + selectedFile)
-            db.loadQuestions(selectedFile)  // Вызов метода C++ класса
+            db.loadQuestions(selectedFile.toLocalFile)  // Вызов метода C++ класса
         }
     }
 }

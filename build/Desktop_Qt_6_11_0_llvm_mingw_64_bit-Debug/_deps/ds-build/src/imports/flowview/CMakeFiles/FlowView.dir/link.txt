@@ -1,0 +1,2 @@
+D:\Qt\Tools\llvm-mingw1706_64\bin\llvm-ar.exe qc libFlowView.a CMakeFiles/FlowView.dir/FlowView_autogen/mocs_compilation.cpp.obj CMakeFiles/FlowView.dir/flowview_qmltyperegistrations.cpp.obj CMakeFiles/FlowView.dir/.qt/rcc/qrc_FlowView_raw_qml_0.cpp.obj CMakeFiles/FlowView.dir/.qt/rcc/qrc_FlowView_raw_res_0.cpp.obj
+D:\Qt\Tools\llvm-mingw1706_64\bin\llvm-ranlib.exe libFlowView.a
